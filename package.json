@@ -1,0 +1,28 @@
+{
+  "name": "secure-email-keyserver",
+  "version": "1.0.0",
+  "description": "Secure-email keyserver.",
+  "main": "main.js",
+  "dependencies": {
+    "@sendgrid/mail": "^7.4.2",
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "express": "^4.17.1",
+    "pg": "^8.5.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node main.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://git.soton.ac.uk/bak1g18/secure-email-keyserver"
+  },
+  "author": "",
+  "license": "ISC",
+  "engines": {
+    "node": "15.13.0"
+  }
+}
